@@ -1,0 +1,6 @@
+{
+  "name": "Nexa BGD Enterprise Commerce",
+  "description": "Enterprise AI-powered e-commerce platform architecture prototype designed for the Bangladesh market. Features glassmorphic UI, simulated AI virtual try-on, and integration concepts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

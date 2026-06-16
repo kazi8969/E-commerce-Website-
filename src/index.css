@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+body {
+  top: 0 !important;
+}
+.skiptranslate iframe {
+  display: none !important; 
+}
+.goog-te-gadget {
+  font-size: 0 !important;
+  color: transparent !important;
+}
+.goog-te-gadget .goog-te-combo {
+  margin: 0 !important;
+  font-size: 12px;
+  color: #4b5563;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+.goog-te-gadget .goog-te-combo:hover {
+  color: #2563eb;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+@layer base {
+  body {
+    background-color: white;
+    color: #1f2937;
+  }
+}
+
+@keyframes scan {
+  from { top: 10%; }
+  to { top: 90%; }
+}
